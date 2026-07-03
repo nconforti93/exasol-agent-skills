@@ -27,6 +27,15 @@ Choose the narrowest matching route. If multiple routes apply, load them in depe
    - Trigger phrases: `set up Exasol`, `Exasol Personal`, `deploy Exasol`, `install Exasol on AWS`, `new Exasol database`
    - Activate: **exasol-setup-personal**
 
+5. **Distributed ML, machine learning, data mining, iterative HPC**
+   - Trigger phrases: `distributed ML`, `machine learning`, `train model`, `batch inference`,
+     `prediction`, `feature engineering`, `hyperparameter`, `PyTorch`, `TensorFlow`,
+     `scikit-learn`, `RAPIDS`, `GPU model`, `model deployment`, `distributed training`,
+     `ensemble`, `anomaly detection`, `forecasting`, `clustering at scale`, `k-means`,
+     `gradient descent`, `iterative algorithm`, `frequent itemset`, `association rules`,
+     `market basket`, `Apriori`, `FP-Growth`, `data mining`, `SON algorithm`
+   - Activate: **exasol-distributed-ml**
+
 ## Dependency Order
 
 When setup and usage both apply, resolve prerequisites first:
@@ -35,6 +44,7 @@ When setup and usage both apply, resolve prerequisites first:
 2. exapump profile or connection configuration
 3. BucketFS or database connectivity validation
 4. SQL, data movement, BucketFS, UDF, or SLC task
+5. Distributed ML, data mining, or iterative HPC task (depends on UDF/SLC and BucketFS)
 
 ## User Interaction Rules
 

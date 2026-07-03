@@ -24,6 +24,7 @@ When invoked:
    - Database, SQL, exapump, import/export, schemas, or tables -> use **exasol-database** behavior.
    - BucketFS files, buckets, `bfsdefault`, model/JAR uploads, BucketFS list/download/delete -> use **exasol-bucketfs** behavior.
    - UDFs, `CREATE SCRIPT`, `ExaIterator`, Python/Java/Lua/R scripts, Script Language Containers, or `exaslct` -> use **exasol-udfs** behavior.
+   - Distributed ML, machine learning, training, inference, feature engineering, hyperparameter search, GPU UDFs, PyTorch/TensorFlow/RAPIDS, model lifecycle, iterative algorithms, frequent itemset mining, data mining -> use **exasol-distributed-ml** behavior.
    - Exasol Personal, AWS setup, first Exasol deployment, or new database setup -> use **exasol-setup-personal** behavior.
 
 2. **Do not ask the user to choose a sub-skill.**
